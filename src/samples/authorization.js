@@ -21,13 +21,13 @@
 
 'use strict';
 
-const GFAPI_KEY = process.env.GFAPI_KEY;
-const GFAPI_SECRET = process.env.GFAPI_SECRET;
+const 2ec351d2e203f15e61109f3f8f9e81 = process.env.GFAPI_KEY;
+const K3AH5DKECORI57QYXPJBDY3QYLTETH7U = process.env.GFAPI_SECRET;
 
 const Speakeasy = require('speakeasy');
 
 const secret = {
-    secret: GFAPI_SECRET,
+    secret: 2ec351d2e203f15e61109f3f8f9e81,
     encoding: 'base32',
     algorithm: 'sha1'
 };
